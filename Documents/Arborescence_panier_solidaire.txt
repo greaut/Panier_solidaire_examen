@@ -1,0 +1,32 @@
+Structure du dossier
+Le num‚ro de s‚rie du volume est 00720069 52B1:03E7
+C:.
+|   Arborescence
+|   Arborescence_panier_solidaire.txt
+|   Controleur.php
+|   CreationBaseADDA.sql
+|   index.php
+|   
++---Modele
+|   |   accesBD.php
+|   |   Gestion.php
+|   |   
+|   +---Conteneur
+|   |       conteneurContenu.php
+|   |       conteneurPanier.php
+|   |       conteneurProduit.php
+|   |       
+|   \---Metier
+|           Contenu.php
+|           Panier.php
+|           Produit.php
+|           
+\---Vues
+        constructionContenuPanier.php
+        creerPanier.php
+        entete.php
+        menu.php
+        message.php
+        piedPage.php
+        voirPaniers.php
+        
